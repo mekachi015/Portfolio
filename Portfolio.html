@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href ="http://fonts.cdnfonts.com/css/silkscreen"/>
+    <title>Profolio</title>
+</header>
+    <style> 
+        /* Wildcard style apply to all */
+        *{
+            box-sizing: border-box;
+        }
+
+        /*Padding for the body*/
+        body{
+            padding: 15px; /* measuring units for pixels or screen size*/
+        }
+
+        /*Style the body owith containers*/
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1{
+            color: green;
+        }
+
+        /*Anchor tags for links*/
+        a{
+            text-decoration: none;
+            color: rgba(0, 0, 255, 0.796);
+        }
+
+        a:hover{
+            color: lightblue;
+            cursor: pointer;
+        }
+
+        p{
+            display:  -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4; /*compresses space between margin and border whether visable or not*/
+            overflow: hidden; /*wraps the text*/
+        }
+
+        /*decoration rows*/
+        .row{
+            margin: 0px - 18px;
+        }
+
+        /*column decorations*/
+        coloumns{
+            float: left;
+        }
+
+        .rows > columns{
+
+        }
+
+        .navigation-bar{
+         background-color: green;
+         height: 20vh;
+         width: 100%;  
+          
+        }
+
+        .navigation-bar li{
+            list-style: none;
+            display: inline;
+            float: right;
+            padding: 10px;
+        }
+
+        .side-bar{
+            background-color: red;
+            width: 10%;
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+    
+        
+        .side-bar li{
+            list-style: none;
+            float: left;
+            
+        }
+
+        .side-bar li a{
+            color: black;
+        }
+
+        .comp-img{
+            height: 40px;
+            width: 40px;
+        }
+
+        .main-content{
+            margin-left :45%;
+            margin-top : 5%;
+        }
+
+        .code-img{
+         width: 200px;
+         height: 200px;
+        }
+
+        .h2{
+        color: purple;
+        font-size: xx-large;
+        font-family: 'Silkscreen', sans-serif;
+        font-family: 'Silkscreen Expanded', sans-serif;
+        }
+    </style>
+<body>
+    <div class="navigation-bar">
+        <nav>
+            <ul>
+                <li> <a href = "#" > <img src = "computer-photo.jpg" class = "comp-img"></a></li>
+                <li> <a href = "#"> Home</a></li>
+                <li> <a href = "#"> About</a></li>
+                <li> <a href = "#"> Contacts</a></li>
+                <li> <a href = "#"> Find Me</li>
+            </ul>
+        </nav>
+
+        <div class="side-bar">
+            <ul>
+                <li> <a href = "#"> Home</a></li>
+                <li> <a href = "#"> About</a></li>
+                <li> <a href = "#"> Contact</a></li>
+                <li> <a href = "#"> Find Me</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <img src = "code-img.jpg" class = "code-img" >
+
+        <section>
+            <h2 style="color: blue;">About Me</h2>
+            <h3 style = "color: red;">My Bio</h3>
+            <p>Let me Tell you about myself....</p>
+    
+            <blockquote style="font-style: italic;"> "Vision Without execution is delusion"</blockquote> <!-- slogans and methaphors -->
+        </section>
+    
+        <aside>
+            <h2 class = "h2">Technical Skills</h2>
+            <h2 >Soft Skills</h2>
+        </aside>
+    
+        <footer>Copyright: &copy; Mekachi </footer>
+    </div>
+
+</body>
+
+</html>
+
+
+
