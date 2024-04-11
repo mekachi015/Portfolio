@@ -1,0 +1,93 @@
+    body{
+        margin: 0;
+    }
+
+    .grid-container{
+        display: grid;
+        
+    }
+
+    /*Start of navigation bar styles*/
+    .code, .pc{
+        width: 25px;
+        height: 25px;
+    }
+
+    .gojo{
+        width: 150px;
+        height: 500px;
+        display: flex;
+        
+    }
+    .nav-bar-grid{
+        
+        background-color: blue;
+        width: 100%; 
+        height:7rem;
+        position: fixed;
+    }
+
+    .nav-bar-grid li{
+        display: inline;
+    }
+
+    .nav-bar-grid a{
+        color: black;
+        float: right;
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+
+    }
+   /*End of navigation bar styles*/
+
+
+    /*end of side bar styles*/
+    .side-bar-grid{
+        position: fixed;      
+        background-color: green;
+        width: 10%;
+        height: 100vh;
+    }
+
+    .side-bar-grid li{
+        list-style-type: none;
+        padding-bottom: 12px;
+    }
+
+    .side-bar-grid a{
+        text-decoration: none;
+        color: white;
+
+    }
+    /*end of side-bar styles*/
+
+ /*Start of main content container*/   
+    .main-content{
+        background-color: white;
+        position: absolute;
+        left: 10%;
+        top: 14.60%;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .main-content p{
+        
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h2{
+        color: purple;
+        font-size: xx-large;
+        font-family: 'Silkscreen', sans-serif;
+        font-family: 'Silkscreen Expanded', sans-serif;
+        display: flex;
+        justify-content: center;
+        
+        }
+
+ /*End of main content container*/
+ 
