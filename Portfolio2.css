@@ -95,6 +95,12 @@ body{
 }
 
 .gojo{
-    height: 200px;
+    height: 300px;
 
 }
+
+.code-img, .comp-photo{
+    height: 20px;
+    width: 20px;
+}
+
